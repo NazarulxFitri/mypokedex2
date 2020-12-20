@@ -1,7 +1,7 @@
 const pokedex = document.getElementById('pokedex');
 
 const fetchPokemon = () => {
-    const totalPokemon = 898;
+    const totalPokemon = 402;
     const promises = [];
 
     for (let i = 1; i <= totalPokemon; i++) {
